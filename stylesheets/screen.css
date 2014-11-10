@@ -17,9 +17,8 @@ footer .vcard {
   padding-bottom: 1.5em;
   margin-bottom: 0em;
   color: #ccc;
-  text-shadow: 0 1px 0 #333;
 }
-/* line 21, ../sass/screen.scss */
+/* line 19, ../sass/screen.scss */
 footer .vcard .fn a.url {
   color: #ccc;
 }

@@ -14,10 +14,8 @@ body {
 }
 footer {
   .vcard {
-    //background: url("../images/body-pattern.jpg") repeat scroll left top rgba(0, 0, 0, 0);
     @include rhythm(0,1,1,0);
     color: #ccc;
-    @include text-shadow(0 1px 0 #333);
     .fn a.url {
       color: #ccc;
     }
