@@ -20,14 +20,17 @@ body {
 }
 /* line 20, ../sass/screen.scss */
 .main p {
+  font-family: 'Time New Roman', Georgia, serif;
+  color: #666;
   font-style: italic;
+  text-shadow: 0 1px 0 #fff;
 }
 
-/* line 24, ../sass/screen.scss */
+/* line 27, ../sass/screen.scss */
 .site-footer {
   background: url("../images/dark-pattern.jpg") repeat scroll left top transparent;
 }
-/* line 27, ../sass/screen.scss */
+/* line 30, ../sass/screen.scss */
 .site-footer footer .vcard {
   margin-top: 0em;
   padding-top: 1.5em;
@@ -35,7 +38,7 @@ body {
   margin-bottom: 0em;
   color: #ccc;
 }
-/* line 30, ../sass/screen.scss */
+/* line 33, ../sass/screen.scss */
 .site-footer footer .vcard .fn a.url {
   color: #ccc;
 }
