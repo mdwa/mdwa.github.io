@@ -10,14 +10,26 @@
 body {
   background: url("../images/dark-pattern.jpg") repeat scroll left top rgba(0, 0, 0, 0);
   color: #999;
-  @include text-shadow(0 1px 0 #333);
+  //@include text-shadow(0 1px 0 #333);
 }
-footer {
-  .vcard {
-    @include rhythm(0,1,1,0);
-    color: #ccc;
-    .fn a.url {
+.site-header {
+  background: url("../images/body-pattern.jpg") repeat scroll left top rgba(0, 0, 0, 0);
+}
+.main {
+  background: url("../images/body-pattern.jpg") repeat scroll left top rgba(0, 0, 0, 0);
+  p {
+    font-style:italic;
+  }
+}
+.site-footer {
+  background: url("../images/dark-pattern.jpg") repeat scroll left top rgba(0, 0, 0, 0);
+  footer {
+    .vcard {
+      @include rhythm(0,1,1,0);
       color: #ccc;
+      .fn a.url {
+        color: #ccc;
+      }
     }
   }
 }

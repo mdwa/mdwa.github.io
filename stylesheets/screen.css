@@ -7,18 +7,35 @@
 body {
   background: url("../images/dark-pattern.jpg") repeat scroll left top transparent;
   color: #999;
-  text-shadow: 0 1px 0 #333;
 }
 
-/* line 16, ../sass/screen.scss */
-footer .vcard {
+/* line 15, ../sass/screen.scss */
+.site-header {
+  background: url("../images/body-pattern.jpg") repeat scroll left top transparent;
+}
+
+/* line 18, ../sass/screen.scss */
+.main {
+  background: url("../images/body-pattern.jpg") repeat scroll left top transparent;
+}
+/* line 20, ../sass/screen.scss */
+.main p {
+  font-style: italic;
+}
+
+/* line 24, ../sass/screen.scss */
+.site-footer {
+  background: url("../images/dark-pattern.jpg") repeat scroll left top transparent;
+}
+/* line 27, ../sass/screen.scss */
+.site-footer footer .vcard {
   margin-top: 0em;
   padding-top: 1.5em;
   padding-bottom: 1.5em;
   margin-bottom: 0em;
   color: #ccc;
 }
-/* line 19, ../sass/screen.scss */
-footer .vcard .fn a.url {
+/* line 30, ../sass/screen.scss */
+.site-footer footer .vcard .fn a.url {
   color: #ccc;
 }
