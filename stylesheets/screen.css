@@ -1,0 +1,25 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* @import "compass/reset"; */
+/* line 10, ../sass/screen.scss */
+body {
+  background: url("../images/dark-pattern.jpg") repeat scroll left top transparent;
+  color: #999;
+  text-shadow: 0 1px 0 #333;
+}
+
+/* line 16, ../sass/screen.scss */
+footer .vcard {
+  margin-top: 0em;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+  margin-bottom: 0em;
+  color: #ccc;
+  text-shadow: 0 1px 0 #333;
+}
+/* line 21, ../sass/screen.scss */
+footer .vcard .fn a.url {
+  color: #ccc;
+}
